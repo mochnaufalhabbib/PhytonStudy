@@ -1,0 +1,15 @@
+#Luas_Lingkaran, Luas Persegi, Luas segitiga
+import math
+def luas_lingkaran(Jari_jari):
+    return math.pi * Jari_jari**2
+jari_jari = float(input ("masukan panjang jari_jari lingkaran : "))
+print("Luas lingkaran adalah:", luas_lingkaran(jari_jari))
+def luas_persegi(sisi):
+    return sisi **2
+sisi=float(input("masukan panjang sisi persegi: "))
+print("luas persegi adalah:", luas_persegi(sisi))
+def luas_segitiga(alas, tinggi):
+    return 0,5 * alas * tinggi
+alas = float (input("masukan panjang alas segitiga: "))
+tinggi = float(input("masukan tinggi segitiga: "))
+print("luas segitiga adalah:", luas_segitiga(alas,tinggi))

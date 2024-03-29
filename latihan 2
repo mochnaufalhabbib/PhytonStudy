@@ -1,0 +1,15 @@
+#Berikut contoh untuk membuat variable dan kondisi dengan if
+#Creator : MOCHAMMAD NAUFAL HABBIB
+#Created : 23-03-2024
+nilai = 10
+if nilai <= 5 :
+    print("Nilai Jelek")
+    print("Tidak Lulus")
+else :
+    print("Nilai Bagus")
+    print("Lulus")
+Nilai = 10
+Nilai= 20
+"hasil_nilai_A" + "hasil_nilai_B"
+print (nilai + nilai)
+nilaiX = int('10')
