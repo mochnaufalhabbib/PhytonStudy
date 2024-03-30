@@ -1,10 +1,19 @@
-Berat = 5
-HargaTelur = 26000
-Ongkos = 3500 * 2
-HargaTelur = Berat * HargaTelur
-Uang = 200000
-print( Uang - ( HargaTelur + Ongkos ))
-def belanja (Berat, HargaTelur, Ongkos, uang):
-    HargaTelur = Berat * HargaTelur
-    Ongkos = Ongkos *2
-    Uang - (HargaTelur-Ongkos) 
+harga_telur = 26000
+berat = 5
+ongkos = 3500
+uang = 200000
+
+total_harga_telur = harga_telur * berat
+total_ongkos = ongkos * 2        #pulang pergi
+total_biaya = total_harga_telur + total_ongkos
+sisa_uang = uang - total_biaya
+
+print(uang)
+print(" telur ", berat, "kg ", "harga", total_harga_telur)
+print("ongkos ", total_ongkos)
+print("sisa uang", sisa_uang)
+
+if sisa_uang <= 0 :
+    print("uang tidak cukup")
+else :
+    print("uang cukup")

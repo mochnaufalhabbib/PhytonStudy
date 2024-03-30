@@ -1,0 +1,6 @@
+manggaperkg = (3.2)
+Hargamanggaperkg = (30000)
+uangkonsumen = (150000)
+hargabelimangga = (manggaperkg * Hargamanggaperkg)
+kembalian = (uangkonsumen-hargabelimangga)
+print(kembalian)
