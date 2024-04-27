@@ -1,0 +1,10 @@
+bil1 = 60
+bil2 = 20
+bil3 = 100
+bil4 = 40
+
+# Menemukan nilai terbesar di antara keempat bilangan
+nilai_terbesar = max(bil1, bil2, bil3, bil4)
+
+# Menampilkan nilai terbesar
+print("Nilai terbesar di antara keempat bilangan adalah:", nilai_terbesar)
